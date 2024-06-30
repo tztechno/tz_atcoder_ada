@@ -28,7 +28,11 @@
 ```
 ---
 ```
-
+with Ada.Strings.Unbounded; use Ada.Strings.Unbounded;
+procedure Main is
+   ans: Unbounded_String;
+begin
+   ans := To_Unbounded_String("Christmas");
 ```
 ---
 ```
